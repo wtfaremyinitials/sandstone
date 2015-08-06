@@ -1,0 +1,39 @@
+{
+  "name": "sandstone",
+  "version": "0.0.0",
+  "description": "Minecraft game proxy in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtfaremyinitials/sandstone.git"
+  },
+  "keywords": [
+    "sandstone",
+    "proxy",
+    "minecraft",
+    "protocol",
+    "bungee",
+    "bungeecord",
+    "cord"
+  ],
+  "author": "Will Franzen <wtfranzen@gmail.com> (http://will.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtfaremyinitials/sandstone/issues"
+  },
+  "homepage": "https://github.com/wtfaremyinitials/sandstone",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "lodash.range": "^3.0.1",
+    "rcon": "^1.0.1"
+  }
+}
